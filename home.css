@@ -7,7 +7,7 @@ body{
 .banner{
     height: 100vh;
     width: 100vh;
-    background: url('../fotos/mountains-1412683_960_720\ \(1\).jpg'), url('../fotos/overlay.png');
+    background: url('./fotos/mountains-1412683_960_720\ \(1\).jpg'), url('./fotos/overlay.png');
     background-position: top;
     background-size: cover ;
     background-repeat: no-repeat;
