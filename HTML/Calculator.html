@@ -5,79 +5,30 @@
             <link rel="stylesheet" type="text/css" href="../CSS/Calculator.css">
     </head>
     <body>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top mb-5 shadow">
-            <div class="container">
-              <a class="navbar-brand" href="#">Mr.Miodragovic</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Start</a>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../Home2/Home2.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../HTML/Mij.html">Personal Information
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Skills.html">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="">Calculator
-                        <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-          
-      <div class="container normal-text ">
-        <div class="card border-0 shadow my-5">
-          <div class="card-body p-5">
-            <button onclick="myFunction()">Dark Mode</button>
-            <h1 class="font-weight-light">Calculator</h1>
-            <p class="lead">HIII:)</p>
-
-            <form class="calculator" name="calc">
-                <input id="screen" class="value" type="text" name="txt" readonly="">
-                <span class="num clear" onclick="num('clear')">c</span>
-                <span class="num operators" onclick="num('/')">/</span>
-                <span class="num operators" onclick="num('*')">*</span>
-                <span class="num" onclick="num('7')">7</span>
-                <span class="num" onclick="num('8')">8</span>
-                <span class="num" onclick="num('9')">9</span>
-                <span class="num operators" onclick="num('-')">-</span>
-                <span class="num" onclick="num('4')">4</span>
-                <span class="num" onclick="num('5')">5</span>
-                <span class="num" onclick="num('6')">6</span>
-                <span class="num plus" onclick="num('+')">+</span>
-                <span class="num" onclick="num('3')">3</span>
-                <span class="num" onclick="num('2')">2</span>
-                <span class="num" onclick="num('1')">1</span>
-                <span class="num" onclick="num('0')">0</span>
-                <span class="num pi" onclick="num('PI')">π</span>
-                <span class="num" onclick="num('.')">.</span>
-                <span class="num operators" onclick="num('^')">^</span>
-                <span class="num equal" onclick="num('=')">=</span>
-            </form>
-            
-            <p class="lead mb-0">Copyright &reg; 2021 K.M</p>
-          </div>
-        </div>
-      </div>
-
+        <form class="calculator" name="calc">
+            <input id="screen" class="value" type="text" name="txt" readonly="">
+            <span class="num clear" onclick="num('clear')">c</span>
+            <span class="num operators" onclick="num('/')">/</span>
+            <span class="num operators" onclick="num('*')">*</span>
+            <span class="num" onclick="num('7')">7</span>
+            <span class="num" onclick="num('8')">8</span>
+            <span class="num" onclick="num('9')">9</span>
+            <span class="num operators" onclick="num('-')">-</span>
+            <span class="num" onclick="num('4')">4</span>
+            <span class="num" onclick="num('5')">5</span>
+            <span class="num" onclick="num('6')">6</span>
+            <span class="num plus" onclick="num('+')">+</span>
+            <span class="num" onclick="num('3')">3</span>
+            <span class="num" onclick="num('2')">2</span>
+            <span class="num" onclick="num('1')">1</span>
+            <span class="num" onclick="num('0')">0</span>
+            <span class="num pi" onclick="num('PI')">π</span>
+            <span class="num" onclick="num('.')">.</span>
+            <span class="num operators" onclick="num('^')">^</span>
+            <span class="num equal" onclick="num('=')">=</span>
+        </form>
+        
     </body>
 </html>
 
 <script src="../Javascript/Calculator.js"></script>
-
